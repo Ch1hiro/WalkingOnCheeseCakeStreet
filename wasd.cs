@@ -6,17 +6,17 @@ public class  wasd : MonoBehaviour {
 
   public float vel;
   public float omega;
-  public RigidBody rb;
+  public Rigidbody rb;
   public float strength;
 
   void Update (){
 
     if (Input.GetKey(KeyCode.W)){
-      transform.Translate(0f, vel, 0f);
+      transform.Translate(0f, 0f, vel);
     }
 
     if (Input.GetKey(KeyCode.S)){
-      transform.Translate(0f, -vel, 0f);
+      transform.Translate(0f, 0f, -vel);
     }
 
     if (Input.GetKey(KeyCode.A)){

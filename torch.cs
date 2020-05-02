@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class  torch : MonoBehaviour {
 
-  public Light torch;
+  //public Light torch;
   public float switch_vel;
 
   void Update (){
-
+/*
     if (Input.GetKey(KeyCode.Up)){
-      torch.range += switch_vel;
+    //  torch.range += switch_vel;
     }
 
     if (Input.GetKey(KeyCode.Down)){
-      torch.range -= switch_vel;
+    //  torch.range -= switch_vel;
     }
-
+*/
   }
 }
